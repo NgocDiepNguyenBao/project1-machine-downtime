@@ -67,6 +67,21 @@ The data explored the features of three machines - which are mainly used to prep
 > 
 > **- Higher Asset Utilization:** Maximize equipment ROI through uptime extension
 
+## **_Interpreting the Model - Application of Counterfactual Explanation_ **
+
+After discussing the relevance of the predictability of machine downtime on maintaining disruption-free supply chain, we must think to ourselves - **What can we do to stay ahead?**
+
+> With the goal of flipping the machines from downtime to no downtime by fine-tuning their features, I initiated a DiCE model model - a CF model with fairly interpretable values - in order to find the desired value of features.
+> However, some things happened...
+
+Based on my _**previous insights**_, it can be concluded that: 
+The direction of the features that can contribute to No machine downtime - based on SHAP values are: 
+...
+
+I stepped into the DiCE model with some preliminary information: 
++ I only want to observe the changes of the top 5 features - ...
++ I want to find potential flipping point, 
+
 ## Illustrations: 
 ![image](https://github.com/user-attachments/assets/e0cd1c9d-21b4-4e29-9740-b1e8f54e7a4d)
 ![image](https://github.com/user-attachments/assets/a51c41f4-0e34-4039-9cd0-56b5374e6ebd)
